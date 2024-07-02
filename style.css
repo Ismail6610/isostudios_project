@@ -1,4 +1,62 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+    height: auto;
+    margin-top: -50px;
+}
 
-#font{
-    font-family:'SF Pro Display Light';
+main{
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.1vw solid black;
+    border-radius: 5vh;
+    gap: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-around;
+    width: 25vw;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.inputs input {
+    width: 65%; 
+    height: 30px;
+    padding: 10px; 
+    border-radius: 10px;
+    font-family: 'SF Pro Display Light';
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-family: 'SF Pro Display Medium';
+    color: white;
+    background-color:#0096FF ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+button:hover{
+    box-shadow: 0 0 10px 3px #0096FF;
+    transition: box-shadow 0.2s ease;
 }

@@ -4,8 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" width="device-width, inital-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="IsoStudios.png" type="image/png">
+        <title>Sign Up</title>
     </head>
     <body>
-            <h1 id="font">Halo ba Ismaile</h1>
+            <main>
+                    <img src="IsoStudiosDark_transparent.png" alt="ikona" width="300px" height="100px">
+                    <div class="inputs">
+                        <input type="email"  placeholder="email">
+                        <input type="password"  placeholder="password">
+                    </div>
+                    <button id="submit">Submit</button>
+            </main>
+            <script>
+                document.getElementById('submit').addEventListener('click',function(){
+                    window.location.href="homepage.html";
+                })
+            </script>
     </body>
 </html>
