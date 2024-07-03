@@ -29,7 +29,7 @@
                 <div class="cube-details">
                     <h2 class="cube-title">Cube</h2>
                     <h3 class="cube-desc">Cube is a 3D platformer game. Very simple</h3>
-                    <button class="game-button">Check it out</button>
+                    <button class="game-button" id="button">Check it out</button>
                 </div>
             </div>
             <div class="foxfall">
@@ -37,11 +37,15 @@
                 <div class="foxfall-details">
                     <h2 class="foxfall-title">Foxfall</h2>
                     <h3 class="foxfall-desc">Foxfall is a 2D platformer game<br> A little bit more complex with save games and much more levels better visuals<br>and even audio is added</h3>
-                    <button class="game-button">Check it out</button>
+                    <button class="game-button" id="button">Check it out</button>
                 </div>
             </div>
         </div>
-
+        <script>
+            document.getElementById('button').addEventListener('click',function(){
+                window.location.href='index.html';
+            })
+        </script>
     </main>
 </body>
 </html>

@@ -11,15 +11,23 @@
             <main>
                     <img src="IsoStudiosDark_transparent.png" alt="ikona" width="300px" height="100px">
                     <div class="inputs">
-                        <input type="email"  placeholder="email">
-                        <input type="password"  placeholder="password">
+                        <input type="email"  placeholder="email" id="email">
+                        <input type="password"  placeholder="password" id="password">
                     </div>
                     <button id="submit">Submit</button>
             </main>
             <script>
-                document.getElementById('submit').addEventListener('click',function(){
-                    window.location.href="homepage.html";
-                })
+                document.getElementById('submit').addEventListener('click', function(event) {
+                    var email = document.getElementById('email').value.trim();
+                    var password = document.getElementById('password').value.trim();
+            
+                    if (email && password) {
+                        window.location.href = "homepage.html";
+                    } else {
+                        alert("Please fill in both the email and password fields.");
+                        event.preventDefault();
+                    }
+                });
             </script>
     </body>
 </html>
