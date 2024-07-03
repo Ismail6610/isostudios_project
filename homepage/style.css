@@ -1,3 +1,5 @@
+
+
 body{
     padding: 0;
     margin: 0;
@@ -30,3 +32,106 @@ header{
     font-size: 20px;
 }
 
+.cube-cover{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 70px;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+}
+
+.main-title{
+    font-family: 'SF Pro Display Medium';
+    font-size: 80px;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.main-desc{
+    font-family: 'Montserrat';
+    margin-left: 8vw;
+    font-size: 30px;
+    margin-top: -10px;
+    color: black;
+    font-weight: 400;
+}
+
+.cube{
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cube-details{
+    margin-right: 400px;
+    height:50vh ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cube-title{
+    font-family: 'SF Pro Display Medium';
+    font-size: 60px;
+}
+
+.cube-desc{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.game-button{
+    width: 100px;
+    height: 40px;
+    font-family: 'SF Pro Display Medium';
+    color: white;
+    background-color:#0096FF ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+.game-button:hover{
+    box-shadow: 0 0 10px 3px #0096FF;
+    transition: box-shadow 0.2s ease;
+}
+
+.foxfall{
+    width: 100vw;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#foxfall-cover{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 70px;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+}
+
+.foxfall-details{
+    margin-left: 200px;
+    height:50vh ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foxfall-title{
+    font-family: 'SF Pro Display Medium';
+    font-size: 60px;
+}
+
+.foxfall-desc{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
