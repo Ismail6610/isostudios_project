@@ -42,7 +42,7 @@ header{
 
 .main-title{
     font-family: 'SF Pro Display Medium';
-    font-size: 80px;
+    font-size: 50px;
     margin-left: 5vw;
     margin-top: 5vh;
 }
@@ -50,7 +50,7 @@ header{
 .main-desc{
     font-family: 'Montserrat';
     margin-left: 8vw;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: -10px;
     color: black;
     font-weight: 400;
