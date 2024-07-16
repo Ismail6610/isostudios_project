@@ -113,12 +113,12 @@ header{
     width: 50vw;
     height: 50vh;
     border-radius: 70px;
-    margin-right: 3vw;
+    margin-right: 5vw;
     margin-bottom: 3vh;
 }
 
 .foxfall-details{
-    margin-left: 200px;
+    margin-left: 150px;
     height:50vh ;
     display: flex;
     justify-content: flex-start;
@@ -134,4 +134,38 @@ header{
 .foxfall-desc{
     font-family: 'Montserrat';
     font-weight: 400;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    box-shadow: 0px -5px 10px gray;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-list{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.icons-list li i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icons-list li{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'SF Pro Display Light';
+    cursor: pointer;
+}
+
+p{
+    font-family: 'SF Pro Display Light';
 }
